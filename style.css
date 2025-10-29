@@ -1,0 +1,262 @@
+
+        .fullname{
+            text-align: center;
+            
+        }
+        body {
+            height:100vh;
+            justify-content: center;
+            /* text-align: center; */
+            background: repeating-linear-gradient(
+                to left,
+                rgba(0, 0, 0, 0.3),
+                rgba(0, 0, 0, 0.3),
+                rgba(255, 255, 255, 0.05),
+                rgba(255, 255, 255, 0.05)
+                ),
+                linear-gradient(to left, #0b0b10, #2b2c2f, #3d3e41);
+            background-blend-mode: overlay;
+            box-shadow: inset 0 0 150px rgba(0, 0, 0, 0.6);
+
+        }
+
+        .btn-primary {
+            background-color: #0066ff;
+            border: none;
+            padding: 12px 25px;
+            font-size: 18px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .btn-primary:hover {
+            background-color: #0047b3;
+            transform: scale(1.05);
+        }
+
+        .modal-content {
+            border-radius: 12px;
+            border: 3px solid #0099ff;
+            box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+        }
+
+        .modal-header {
+            background-color: #008cff;
+            color: white;
+            border-bottom: 2px solid #0066cc;
+        }
+
+        .form-label {
+            font-weight: bold;
+            color: black;
+        }
+
+        input, select {
+            border: 2px solid #b3d7ff;
+        }
+
+        input:focus, select:focus {
+            border-color: #0077ff;
+            box-shadow: 0 0 5px #80bfff;
+        }
+
+        .btn-success {
+            background-color: #28a745;
+            font-weight: bold;
+        }
+
+        .btn-danger {
+            background-color: #ff4d4d;
+            font-weight: bold;
+        }
+
+         table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 20px auto;
+        background: #e8f3ff;
+        border: 3px solid #0099ff;
+        border-radius: 10px;
+        overflow: hidden;
+        text-align: center;
+    }
+    td {
+        padding: 10px;
+        border-bottom: 2px solid #b3d7ff;
+    }
+    tr{
+        font-size: 13px;
+        font-weight: bold;
+    }
+    tr:hover {
+        background-color: #d6ecff;
+        transition: 0.3s;
+    }
+.main-content {
+    margin-left: 260px;
+}
+/* Sidebar */
+.menu li a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #cfd8dc;
+  text-decoration: none;
+  padding: 12px 20px;
+  transition: 0.3s;
+  border-radius: 15px;
+}
+
+.menu li a i {
+  font-size: 18px; /* icon size */
+}
+
+.menu li:hover a {
+  background: #34495e;
+  color: #fff;
+}
+.menu {
+  list-style: none;   /* removes the bullet dots */
+  padding: 0;         /* removes left padding */
+  margin: 0;          /* removes top margin */
+}
+.logout {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  background: transparent; /* matches navbar */
+  color: #cfd8dc;
+  text-decoration: none;
+  padding: 12px;
+  transition: 0.3s;
+  cursor: pointer;
+   
+}
+
+.logout:hover {
+  background: #34495e; /* subtle hover highlight */
+  color: #fff;
+ 
+}
+
+
+.title{
+    color:white;
+    /* background-color:red; */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    text-align:center;
+    margin-left: 180px;
+    font-family: 'Poppins', sans-serif;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    
+}
+#btnadd_item{
+    background-color:white;
+    border:none;
+    border-radius:5px;
+
+}
+#btnedit_item{
+    background-color:white;
+    border:none;
+    border-radius:5px;
+
+}
+#btndelete_item{
+    background-color:white;
+    border:none;
+    border-radius:5px;
+}
+#btnadd_item:hover{
+    background-color:lightgray;
+}
+#btnedit_item:hover{
+    background-color:lightgray;
+}
+#btndelete_item:hover{
+    background-color:lightgray;
+}
+
+#btnhome{
+    background-color:none;
+}
+#btnhome:hover{
+    color:lightgray;
+}
+#btnedit{
+    background-color:white;
+    border:none;
+    border-radius:5px;
+
+}
+#btndelete{
+    background-color:white;
+    border:none;
+    border-radius:5px;
+}
+#btnadd:hover{
+    background-color:lightgray;
+}
+#btnedit:hover{
+    background-color:lightgray;
+}
+#btndelete:hover{
+    background-color:lightgray;
+}
+
+#btnhome{
+    background-color:none;
+}
+#btnhome:hover{
+    color:lightgray;
+}
+#hr{
+    margin-top:160px;
+}
+.nav-link.active {
+  background-color:#34495e; /* same as hover color, change if needed */
+  color: white !important;
+}
+#add{
+    background-color:white;
+    padding:8px;
+    font-size:15px;
+    border-radius:15px;
+}
+#add:hover{
+     background-color:lightgray;
+}
+/* Canvas stays behind all content */
+#plexus-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+.modal-content {
+  background: #fcf9f9ff;
+  border-radius: 12px;
+  border: 1px solid #555;          /* neutral gray border */
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);  /* soft dark shadow */
+  color: black;
+}
+.modal-header-custom {
+  background: linear-gradient(90deg, #2d2d2d, #3a3a3a); /* dark gray gradient */
+  color: #f2f2f2; /* light gray text */
+  border-bottom: 1px solid #555; /* subtle divider */
+}
+.table-primary{
+  font-size: 16px;
+}
+
+  
